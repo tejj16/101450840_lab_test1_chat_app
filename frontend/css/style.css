@@ -1,0 +1,92 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Signup/Login Page */
+.card {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Chat Page */
+.chat-box {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.chat-box p {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    background: #e9ecef;
+    display: inline-block;
+}
+
+.chat-box p strong {
+    color: #007bff;
+}
+
+/* Typing Indicator */
+.typing-indicator {
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Leave Room Button */
+.leave-btn {
+    background: red;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    float: right;
+}
+
+/* Input & Send Button */
+.input-group {
+    margin-top: 10px;
+}
+
+.input-group input {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.input-group .btn {
+    border-radius: 20px;
+}
